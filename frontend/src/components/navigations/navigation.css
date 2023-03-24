@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+
+.fragment {
+  font-family: "Irish Grover", cursive;
+  font-weight: 400;
+}
+
+.dropdown-menu {
+  min-width: auto !important;
+}
+.navbar-section {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  box-shadow: none;
+}
+.nav-title {
+  font-size: 2rem;
+  font-family: "Irish Grover", cursive;
+  font-weight: 800;
+  background-image: linear-gradient(
+    to right,
+    #f2994a,
+    #f2994a 51%,
+    #aed581 50%,
+    #aed581
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-link {
+  background-image: linear-gradient(
+    to right,
+    #f2994a,
+    #f2994a 50%,
+    #aed581 50%,
+    #aed581
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.4rem;
+  font-family: "Irish Grover", cursive;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+#navbarScrollingDropdown {
+  width: fit-content;
+}
+
+@media (max-width: 1024px) {
+  .nav-title {
+    font-size: 1.5rem;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-link {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .navbar-collapse {
+    background-color: #212529;
+  }
+  .hide {
+    display: none;
+  }
+}

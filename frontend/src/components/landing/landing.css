@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;1,100&family=Source+Sans+Pro&display=swap");
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 655px;
+  background-image: url(../../assets/shamrock.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.h1 span {
+  color: #fd7e14;
+}
+
+.p1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: white;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.btn-secondary {
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+}
+
+span {
+  color: #fd7e14;
+}
+
+.container.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
